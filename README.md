@@ -37,7 +37,7 @@ A base usada para este projeto foi a [V-Librasil](https://libras.cin.ufpe.br/). 
 Baseando-se na literatura vistas, os modelos escolhidos foram:
 
 1. **Inception ResNetV2**
-Combina a aequitetura Inception, que utiliza blocos convolucionais com diferentestamanhos de filtros para capturar várias características da imagem, com a arquitetura ResNet, que emprega conexões residuais para facilitar o treinamento de redes profundas. É eficiente para tarefas de classificação de imagens complexas devido à sua capacidade de extrair características detalhadas 
+Combina a arquitetura Inception, que utiliza blocos convolucionais com diferentestamanhos de filtros para capturar várias características da imagem, com a arquitetura ResNet, que emprega conexões residuais para facilitar o treinamento de redes profundas. É eficiente para tarefas de classificação de imagens complexas devido à sua capacidade de extrair características detalhadas 
 
 2. **ResNet50V2** 
 É uma versão aprimorada do modelo ResNet50, que utiliza conexões residuais para mitigar o problema de degradação em redes muito profundas. A versão V2 ajusta a ordem das operações nos blocos residuais, o que melhora a convergência e o desempenho em tarefas de classificação de imagens.
